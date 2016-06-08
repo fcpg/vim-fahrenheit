@@ -6,7 +6,6 @@ Fahrenheit colorscheme for Vim:
 - Terminal & GUI support
 - Simple, clean code created with [vim-rng](https://gist.github.com/5cd2f4ec222805f49eca.git)
 - Airline, Lightline & CtrlP support out-of-the-box
-- IF YOU DON'T HAVE THIS THEME, YOU WIND UP PLAYING IN A ROCK BAND
 
 Screenshots
 ------------
