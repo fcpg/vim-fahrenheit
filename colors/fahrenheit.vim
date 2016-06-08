@@ -1,4 +1,4 @@
-" whiplash.vim -- Vim color scheme.
+" fahrenheit.vim -- Vim color scheme.
 " Author:      fcpg (n/a)
 " Webpage:     https://github.com/fcpg
 " Description: Dark, warm base16 theme for 256-color terminals
@@ -9,7 +9,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "whiplash"
+let colors_name = "fahrenheit"
 
 if &t_Co >= 256 || has("gui_running")
     hi Normal ctermbg=0 ctermfg=15 cterm=NONE guibg=#000000 guifg=#ffffff gui=NONE

@@ -60,4 +60,4 @@ let s:p.visual.left       = [[ '#000000', '#ffaf5f',   0, 215 ],
 
 unlet! s:has_stl
 
-let g:lightline#colorscheme#whiplash#palette = s:p
+let g:lightline#colorscheme#fahrenheit#palette = s:p

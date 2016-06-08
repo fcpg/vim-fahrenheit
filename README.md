@@ -1,6 +1,6 @@
-Vim-whiplash
+Vim-fahrenheit
 =============
-Whiplash colorscheme for Vim:
+Fahrenheit colorscheme for Vim:
 
 - Base16 theme for the standard 256-color palette of most terminals
 - Terminal & GUI support
@@ -12,12 +12,12 @@ Screenshots
 ------------
 Taken on minTTY with Office Code Pro font:
 
-[![](img/whiplash_vim_thumb.png)](img/whiplash_vim.png)
+[![](img/fahrenheit_vim_thumb.png)](img/fahrenheit_vim.png)
 
 
 Palette
 --------
-![whiplash_palette](img/whiplash_palette.png)
+![fahrenheit_palette](img/fahrenheit_palette.png)
 
 |  Hex  | Term |
 |-------|-----:|
@@ -41,19 +41,19 @@ Palette
 Installation
 -------------
 1. Install the bundle:
-  *  [Pathogen][1] - `git clone https://github.com/fcpg/vim-whiplash ~/.vim/bundle/vim-whiplash`
-  *  [NeoBundle][2] - `NeoBundle 'fcpg/vim-whiplash'`
-  *  [Vundle][3] - `Plugin 'fcpg/vim-whiplash'`
+  *  [Pathogen][1] - `git clone https://github.com/fcpg/vim-fahrenheit ~/.vim/bundle/vim-fahrenheit`
+  *  [NeoBundle][2] - `NeoBundle 'fcpg/vim-fahrenheit'`
+  *  [Vundle][3] - `Plugin 'fcpg/vim-fahrenheit'`
   *  manual - copy all of the files into your `~/.vim` directory
 2. Append the following line to your .vimrc file:
 ```VimL
-colorscheme whiplash
+colorscheme fahrenheit
 ```
 
 FAQ
 ----
 - How do I customize colors?  
-  *  Either edit the 'colors/whiplash.vim' file (it's plain vim 'highlight' commands), if you don't mind merging when pulling/updating;
+  *  Either edit the 'colors/fahrenheit.vim' file (it's plain vim 'highlight' commands), if you don't mind merging when pulling/updating;
   *  Or override with autocommands in you .vimrc:
 ```VimL
 augroup myBetterColors
