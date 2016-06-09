@@ -1,0 +1,28 @@
+! Black + DarkGrey
+*color0:  rgb:00/00/00
+*color8:  rgb:26/26/26
+! DarkRed + Red
+*color1:  rgb:d7/5f/00
+*color9:  rgb:d7/87/5f
+! DarkGreen + Green
+*color2:  rgb:af/87/5f
+*color10: rgb:d7/af/87
+! DarkYellow + Yellow
+*color3:  rgb:ff/d7/87
+*color11: rgb:ff/d7/5f
+! DarkBlue + Blue
+*color4:  rgb:5f/87/af
+*color12: rgb:87/af/d7
+! DarkMagenta + Magenta
+*color5:  rgb:87/5f/5f
+*color13: rgb:af/87/af
+!DarkCyan + Cyan
+*color6:  rgb:ff/d7/af
+*color14: rgb:ff/ff/d7
+! LightGrey + White
+*color7:  rgb:a8/a8/a8
+*color15: rgb:ff/ff/ff
+! FG/BG/Cursor
+XTerm*foreground:  rgb:ff/af/5f
+XTerm*background:  rgb:00/00/00
+XTerm*cursorColor: rgb:d7/5f/00
