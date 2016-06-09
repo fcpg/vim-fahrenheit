@@ -65,6 +65,12 @@ augroup END
   char in 'fillchars' if it is defined; unset it in your .vimrc to turn on the 
   "solid" status line.
   
+Resources
+----------
+- Shell script for terminal settings (generic OSC commands) in the 'misc' subdir
+- .Xresources file, also in the 'misc' subdir
+- [iTerm2 colorscheme](https://github.com/jonascarpay/iTerm2-Color-Schemes/blob/master/schemes/Fahrenheit.itermcolors) from jonascarpay/Kootle
+
 License
 --------
 [Attribution-ShareAlike 4.0 Int.](https://creativecommons.org/licenses/by-sa/4.0/)
