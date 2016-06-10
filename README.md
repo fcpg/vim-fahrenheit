@@ -67,8 +67,11 @@ augroup END
   
 Resources
 ----------
-- Shell script for terminal settings (generic OSC commands) in the 'misc' subdir
-- .Xresources file, also in the 'misc' subdir
+- Including in this repo ('misc' subdir):
+  - Shell script for terminal settings (generic OSC commands)
+  - .Xresources
+  - .minttyrc
+  - .dir_colors
 - [iTerm2 colorscheme](https://github.com/jonascarpay/iTerm2-Color-Schemes/blob/master/schemes/Fahrenheit.itermcolors) from jonascarpay/Kootle
 
 License
