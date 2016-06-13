@@ -23,6 +23,9 @@
 *color7:  rgb:a8/a8/a8
 *color15: rgb:ff/ff/ff
 ! FG/BG/Cursor
+URxvt*foreground:  rgb:ff/af/5f
+URxvt*background:  rgb:00/00/00
+URxvt*cursorColor: rgb:d7/5f/00
 XTerm*foreground:  rgb:ff/af/5f
 XTerm*background:  rgb:00/00/00
 XTerm*cursorColor: rgb:d7/5f/00
