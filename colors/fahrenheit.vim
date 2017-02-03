@@ -34,7 +34,7 @@ if &t_Co >= 256 || has("gui_running")
     hi TabLine ctermbg=bg ctermfg=95 cterm=NONE guibg=bg guifg=#875f5f gui=NONE
     hi TabLineFill ctermbg=235 ctermfg=15 cterm=NONE guibg=#262626 guifg=#ffffff gui=NONE
     hi TabLineSel ctermbg=bg ctermfg=221 cterm=NONE guibg=bg guifg=#ffd75f gui=NONE
-    hi Title ctermbg=bg ctermfg=230 cterm=NONE guibg=bg guifg=#ffffd7 gui=NONE
+    hi Title ctermbg=bg ctermfg=230 cterm=bold guibg=bg guifg=#ffffd7 gui=bold
     hi CursorLine ctermbg=235 ctermfg=NONE cterm=NONE guibg=#262626 guifg=NONE gui=NONE
     hi LineNr ctermbg=bg ctermfg=137 cterm=NONE guibg=bg guifg=#af875f gui=NONE
     hi CursorLineNr ctermbg=bg ctermfg=223 cterm=NONE guibg=bg guifg=#ffd7af gui=NONE
@@ -125,7 +125,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi TabLine ctermbg=bg ctermfg=darkmagenta cterm=NONE
     hi TabLineFill ctermbg=darkgray ctermfg=white cterm=NONE
     hi TabLineSel ctermbg=bg ctermfg=yellow cterm=NONE
-    hi Title ctermbg=bg ctermfg=white cterm=NONE
+    hi Title ctermbg=bg ctermfg=white cterm=bold
     hi CursorLine ctermbg=darkgray ctermfg=NONE cterm=NONE
     hi LineNr ctermbg=bg ctermfg=darkyellow cterm=NONE
     hi CursorLineNr ctermbg=bg ctermfg=white cterm=NONE
