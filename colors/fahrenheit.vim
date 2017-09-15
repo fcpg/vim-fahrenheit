@@ -57,6 +57,7 @@ if &t_Co >= 256 || has("gui_running")
     hi DiffText ctermbg=235 ctermfg=173 cterm=NONE guibg=#262626 guifg=#d7875f gui=NONE
     hi IncSearch ctermbg=166 ctermfg=0 cterm=NONE guibg=#d75f00 guifg=#000000 gui=NONE
     hi Search ctermbg=180 ctermfg=0 cterm=NONE guibg=#d7af87 guifg=#000000 gui=NONE
+    hi! link QuickFixLine Search
     hi Directory ctermbg=bg ctermfg=15 cterm=NONE guibg=bg guifg=#ffffff gui=NONE
     hi MatchParen ctermbg=95 ctermfg=221 cterm=bold guibg=#875f5f guifg=#ffd75f gui=bold
     hi SpellBad ctermbg=NONE ctermfg=88 cterm=NONE guibg=NONE guifg=#870000 gui=NONE guisp=#870000
@@ -148,6 +149,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi DiffText ctermbg=darkgray ctermfg=darkyellow cterm=NONE
     hi IncSearch ctermbg=red ctermfg=black cterm=NONE
     hi Search ctermbg=darkyellow ctermfg=black cterm=NONE
+    hi link QuickFixLine Search
     hi Directory ctermbg=bg ctermfg=white cterm=NONE
     hi MatchParen ctermbg=darkmagenta ctermfg=yellow cterm=bold
     hi SpellBad ctermbg=NONE ctermfg=darkred cterm=NONE
