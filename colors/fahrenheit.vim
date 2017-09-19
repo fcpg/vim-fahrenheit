@@ -30,6 +30,8 @@ if &t_Co >= 256 || has("gui_running")
     hi Underlined ctermbg=235 ctermfg=221 cterm=NONE guibg=#262626 guifg=#ffd75f gui=NONE
     hi StatusLine ctermbg=bg ctermfg=173 cterm=NONE guibg=bg guifg=#d7875f gui=NONE
     hi StatusLineNC ctermbg=bg ctermfg=235 cterm=NONE guibg=bg guifg=#262626 gui=NONE
+    hi! link StatusLineTerm StatusLine
+    hi! link StatusLineTermNC StatusLineNC
     hi VertSplit ctermbg=bg ctermfg=235 cterm=NONE guibg=bg guifg=#262626 gui=NONE
     hi TabLine ctermbg=bg ctermfg=95 cterm=NONE guibg=bg guifg=#875f5f gui=NONE
     hi TabLineFill ctermbg=235 ctermfg=231 cterm=NONE guibg=#262626 guifg=#ffffff gui=NONE
@@ -122,6 +124,8 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Underlined ctermbg=darkgray ctermfg=yellow cterm=NONE
     hi StatusLine ctermbg=bg ctermfg=darkyellow cterm=NONE
     hi StatusLineNC ctermbg=bg ctermfg=darkgray cterm=NONE
+    hi link StatusLineTerm StatusLine
+    hi link StatusLineTermNC StatusLineNC
     hi VertSplit ctermbg=bg ctermfg=darkgray cterm=NONE
     hi TabLine ctermbg=bg ctermfg=darkmagenta cterm=NONE
     hi TabLineFill ctermbg=darkgray ctermfg=white cterm=NONE
