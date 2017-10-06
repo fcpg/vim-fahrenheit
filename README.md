@@ -1,5 +1,5 @@
-Vim-fahrenheit
-=============
+![Fahrenheit](img/fahrenheit.png)
+
 Fahrenheit colorscheme for Vim:
 
 - Base16 theme for the standard 256-color palette of most terminals
@@ -43,7 +43,7 @@ Installation
   *  [Pathogen][1] - `git clone https://github.com/fcpg/vim-fahrenheit ~/.vim/bundle/vim-fahrenheit`
   *  [NeoBundle][2] - `NeoBundle 'fcpg/vim-fahrenheit'`
   *  [Vundle][3] - `Plugin 'fcpg/vim-fahrenheit'`
-  *  manual - copy all of the files into your `~/.vim` directory
+  *  manual - copy all files into your `~/.vim` directory
 2. Append the following line to your .vimrc file:
 ```VimL
 colorscheme fahrenheit
@@ -73,6 +73,11 @@ Resources
   - .minttyrc
   - .dir_colors
 - [iTerm2 colorscheme](https://github.com/jonascarpay/iTerm2-Color-Schemes/blob/master/schemes/Fahrenheit.itermcolors) from jonascarpay/Kootle
+
+Other Themes
+-------------
+- [Far Out](https://github.com/fcpg/vim-farout)
+- [Orbital](https://github.com/fcpg/vim-orbital)
 
 License
 --------
