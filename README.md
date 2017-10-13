@@ -72,7 +72,7 @@ Resources
   - .Xresources
   - .minttyrc
   - .dir_colors
-- [iTerm2 colorscheme](https://github.com/jonascarpay/iTerm2-Color-Schemes/blob/master/schemes/Fahrenheit.itermcolors) from jonascarpay/Kootle
+- [iTerm2 colorscheme](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Fahrenheit.itermcolors)
 
 Other Themes
 -------------
