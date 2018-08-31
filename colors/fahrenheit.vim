@@ -3,10 +3,12 @@
 " Webpage:     https://github.com/fcpg
 " Description: Dark, warm base16 theme for 256-color terminals
 
-hi clear
+if !exists('g:colors_noreset')
+  hi clear
 
-if exists("syntax_on")
-  syntax reset
+  if exists("syntax_on")
+    syntax reset
+  endif
 endif
 
 let colors_name = "fahrenheit"
