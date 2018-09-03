@@ -4,14 +4,12 @@
 " Description: Dark, warm base16 theme for 256-color terminals
 
 if !exists('g:colors_noreset')
-  hi clear
+    hi clear
 
-  if exists("syntax_on")
-    syntax reset
-  endif
+    if exists("syntax_on")
+      syntax reset
+    endif
 endif
-
-let colors_name = "fahrenheit"
 
 if &t_Co >= 256 || has("gui_running")
     hi Normal ctermbg=16 ctermfg=231 cterm=NONE guibg=#000000 guifg=#ffffff gui=NONE
@@ -29,6 +27,24 @@ if &t_Co >= 256 || has("gui_running")
     hi Number ctermbg=bg ctermfg=67 cterm=NONE guibg=bg guifg=#5f87af gui=NONE
     hi Todo ctermbg=bg ctermfg=231 cterm=bold guibg=bg guifg=#ffffff gui=bold
     hi Type ctermbg=bg ctermfg=223 cterm=NONE guibg=bg guifg=#ffd7af gui=NONE
+    hi! link Character Constant
+    hi! link Float Number
+    hi! link Conditional Statement
+    hi! link Repeat Statement
+    hi! link Label Statement
+    hi! link Keyword Statement
+    hi! link Exception Statement
+    hi! link Include PreProc
+    hi! link Define PreProc
+    hi! link Macro PreProc
+    hi! link PreCondit PreProc
+    hi! link StorageClass Type
+    hi! link Structure Type
+    hi! link Typedef Type
+    hi! link Tag Special
+    hi! link SpecialChar Special
+    hi! link SpecialComment Special
+    hi! link Debug Special
     hi Underlined ctermbg=235 ctermfg=221 cterm=NONE guibg=#262626 guifg=#ffd75f gui=NONE
     hi StatusLine ctermbg=bg ctermfg=173 cterm=NONE guibg=bg guifg=#d7875f gui=NONE
     hi StatusLineNC ctermbg=bg ctermfg=235 cterm=NONE guibg=bg guifg=#262626 gui=NONE
@@ -123,6 +139,24 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Number ctermbg=bg ctermfg=blue cterm=NONE
     hi Todo ctermbg=bg ctermfg=white cterm=bold
     hi Type ctermbg=bg ctermfg=white cterm=NONE
+    hi link Character Constant
+    hi link Float Number
+    hi link Conditional Statement
+    hi link Repeat Statement
+    hi link Label Statement
+    hi link Keyword Statement
+    hi link Exception Statement
+    hi link Include PreProc
+    hi link Define PreProc
+    hi link Macro PreProc
+    hi link PreCondit PreProc
+    hi link StorageClass Type
+    hi link Structure Type
+    hi link Typedef Type
+    hi link Tag Special
+    hi link SpecialChar Special
+    hi link SpecialComment Special
+    hi link Debug Special
     hi Underlined ctermbg=darkgray ctermfg=yellow cterm=NONE
     hi StatusLine ctermbg=bg ctermfg=darkyellow cterm=NONE
     hi StatusLineNC ctermbg=bg ctermfg=darkgray cterm=NONE
@@ -201,5 +235,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi CtrlPBufferVis ctermbg=bg ctermfg=darkyellow cterm=NONE
     hi CtrlPBufferNr ctermbg=bg ctermfg=blue cterm=NONE
 endif
+
+let colors_name = "fahrenheit"
 
 " Generated with RNB (https://gist.github.com/romainl/5cd2f4ec222805f49eca)
