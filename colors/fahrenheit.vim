@@ -15,7 +15,9 @@ unlet! colors_name
 
 if &t_Co >= 256 || has("gui_running")
     hi Normal ctermbg=16 ctermfg=231 cterm=NONE guibg=#000000 guifg=#ffffff gui=NONE
-    set background=dark
+    if &background != "dark"
+        set background=dark
+    endif
     hi NonText ctermbg=bg ctermfg=88 cterm=NONE guibg=bg guifg=#870000 gui=NONE
     hi Comment ctermbg=bg ctermfg=95 cterm=NONE guibg=bg guifg=#875f5f gui=NONE
     hi Constant ctermbg=bg ctermfg=231 cterm=NONE guibg=bg guifg=#ffffff gui=NONE
@@ -127,7 +129,9 @@ if &t_Co >= 256 || has("gui_running")
 elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     set t_Co=16
     hi Normal ctermbg=black ctermfg=white cterm=NONE
-    set background=dark
+    if &background != "dark"
+        set background=dark
+    endif
     hi NonText ctermbg=bg ctermfg=darkred cterm=NONE
     hi Comment ctermbg=bg ctermfg=darkmagenta cterm=NONE
     hi Constant ctermbg=bg ctermfg=white cterm=NONE
