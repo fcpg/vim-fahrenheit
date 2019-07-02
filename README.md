@@ -43,7 +43,7 @@ Installation
   *  [Pathogen][1] - `git clone https://github.com/fcpg/vim-fahrenheit ~/.vim/bundle/vim-fahrenheit`
   *  [NeoBundle][2] - `NeoBundle 'fcpg/vim-fahrenheit'`
   *  [Vundle][3] - `Plugin 'fcpg/vim-fahrenheit'`
-  *  [Plug][4] - Plug 'fcpg/vim-complimentary'
+  *  [Plug][4] - Plug 'fcpg/vim-fahrenheit'
   *  manual - copy all files into your `~/.vim` directory
 2. Append the following line to your .vimrc file:
 ```VimL
