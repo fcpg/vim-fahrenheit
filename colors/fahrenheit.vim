@@ -14,7 +14,7 @@ endif
 unlet! colors_name
 
 if &t_Co >= 256 || has("gui_running")
-    hi Normal ctermbg=16 ctermfg=231 cterm=NONE guibg=#000000 guifg=#ffffff gui=NONE
+    noauto hi Normal ctermbg=16 ctermfg=231 cterm=NONE guibg=#000000 guifg=#ffffff gui=NONE
     if &background != "dark"
         set background=dark
     endif
