@@ -80,7 +80,7 @@ if &t_Co >= 256 || has("gui_running")
     hi DiffDelete ctermbg=bg ctermfg=88 cterm=NONE guibg=bg guifg=#870000 gui=NONE
     hi DiffText ctermbg=235 ctermfg=173 cterm=NONE guibg=#262626 guifg=#d7875f gui=NONE
     hi IncSearch ctermbg=166 ctermfg=16 cterm=NONE guibg=#d75f00 guifg=#000000 gui=NONE
-    hi Search ctermbg=238 ctermfg=15 cterm=bold guibg=#444444 guibg=#ffffff gui=bold
+    hi Search ctermbg=238 ctermfg=15 cterm=bold guibg=#444444 guifg=#ffffff gui=bold
     hi! link QuickFixLine Search
     hi Directory ctermbg=bg ctermfg=231 cterm=NONE guibg=bg guifg=#ffffff gui=NONE
     hi MatchParen ctermbg=95 ctermfg=221 cterm=bold guibg=#875f5f guifg=#ffd75f gui=bold
